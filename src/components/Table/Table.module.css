@@ -1,0 +1,42 @@
+.containerTable {
+  max-width: 600px;
+  width: 100%;
+}
+
+.imc {
+  background-color: var(--corBotao);
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.table {
+  background-color: var(--corSecundaria);
+  padding: 32px;
+  border-radius: 16px;
+  height: calc(100% - 79.09px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tableName {
+  text-align: center;
+  color: var(--corBotao);
+  margin-bottom: 16px;
+}
+
+.tableItem {
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid var(--corBotao);
+  transition: 0.3s;
+}
+
+.tableItemActive {
+  border: 1px solid var(--corBotao);
+  background-color: var(--corBotao);
+  transition: 0.3s;
+}

@@ -1,0 +1,94 @@
+.containerForm {
+  background-color: var(--corSecundaria);
+  padding: 32px;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 0 32px;
+  color: var(--corBotao);
+}
+
+.form {
+  width: 100%;
+}
+
+.formLabel,
+.formInput {
+  display: block;
+  width: 100%;
+}
+
+.formLabel {
+  margin-top: 16px;
+}
+
+.formInput {
+  height: 28px;
+  outline: none;
+}
+
+.formButton,
+.formButtonReset {
+  width: 100%;
+  padding: 8px;
+  margin: 16px 0 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid var(--corBotao);
+}
+
+.formButton {
+  background-color: var(--corBotao);
+  color: var(--corTexto);
+}
+
+.formButtonReset {
+  background-color: var(--corSecundaria);
+  color: var(--corBotao);
+}
+
+.formButton:hover,
+.formButtonReset:hover {
+  filter: brightness(1.1);
+  transition: 0.3;
+}
+
+.alert {
+  color: var(--corBotao);
+  text-align: center;
+  font-weight: bold;
+  margin: 8px;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+.questionTitle {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid var(--corBotao);
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.questionTitle:hover {
+  background-color: var(--corBotao);
+  color: var(--corTexto);
+  transition: 0.3s;
+}
+
+.question {
+  padding: 0 8px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
