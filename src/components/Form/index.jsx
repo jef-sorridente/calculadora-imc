@@ -44,6 +44,12 @@ const Form = ({ formulario }) => {
     }
   };
 
+  const reset = () => {
+    setAltura("");
+    setPeso("");
+    formulario("");
+  };
+
   return (
     <>
       <div className={style.containerForm}>
@@ -94,7 +100,11 @@ const Form = ({ formulario }) => {
           <button className={style.formButton} type="submit">
             Calcular
           </button>
-          <button className={style.formButtonReset} type="reset">
+          <button
+            className={style.formButtonReset}
+            type="reset"
+            onClick={reset}
+          >
             Limpar
           </button>
           {mensagemAlerta && <p className={style.alert}>{mensagemAlerta}</p>}
